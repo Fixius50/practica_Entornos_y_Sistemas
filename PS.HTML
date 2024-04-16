@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS</title>
+</head>
+<style>
+    body{
+        background-color: yellowgreen;
+        text-align: center;
+        display: block;
+    }
+    header{
+        border: 1px solid black;
+        background-color: aqua;
+    }
+    section{
+        border: 1px solid black;
+        margin-top: 5%;
+        width: 100%;
+        background-color: cadetblue;
+        height: auto;
+        text-align: start;
+    }
+    footer{
+        border: 1px solid black;
+        margin-top: 5%;
+        background-color: beige;
+    }
+    .art1, .art2{
+        margin-left: 1%;
+    }
+</style>
+<body>
+    <header>
+        <h1>PS</h1>
+    </header>
+    <section>
+        <article class="art1">
+            <h1>¿QUÉ HACE?</h1>
+            <a>Muestra una lista con todos los procesos que se estén ejecutando en el sistema en ese momento. “ps” significa “Process Status”.</a>
+        </article>
+        <article class="art2">
+            <h1>SINTAXIS</h1>
+            <b>ps [opciones]</b>
+            <ul>
+                <li>
+                    <a><b>grep</b>: la istrucción del comando</a>
+                </li>
+                <li>
+                    <a><b>[opciones]</b>: modificadores del comando. Algunos son:</a>
+                    <ol>
+                        <li>
+                            <a><b>-A</b>: muestra todos los procesos que se están ejecutando en el sistema (los de todos los usuarios).</a>
+                        </li>
+                        <li>
+                            <a><b>-a</b>: muestra todos los procesos excepto los que no están asociados a la terminal con la que se ejecuta el comando. Además, excluye el nombre del usuario que aparece normalmente junto a cada proceso.</a>
+                        </li>
+                        <li>
+                            <a><b>-C [procesos]</b>: muestra únicamente los procesos que tienen el nombre que se ha indicado en la condición [procesos].</a>
+                        </li>
+                        <li>
+                            <a><b>-d</b>: muestra todos los procesos sin los nombres de los usuarios cuya sesión está asignada al proceso.</a>
+                        </li>
+                        <li>
+                            <a><b>-e</b>: muestra lo mismo que -A (son equivalentes).</a>
+                        </li>
+                        <li>
+                            <a><b>-f</b>: muestra todos los procesos con mayor detalle.</a>
+                        </li>
+                        <li>
+                            <a><b>r</b>: muestra únicamente los procesos que están ejecutándose en ese momento.</a>
+                        </li>
+                        <li>
+                            <a><b>T</b>: muestra únicamente los procesos asignados a la terminal con la que se ejecuta el comando ps.</a>
+                        </li>
+                        <li>
+                            <a><b>x</b>: muestra únicamente los procesos que pertenecen al usuario ejecutor.</a>
+                        </li>
+                    </ol>
+                </li>
+            </ul>
+        </article>
+    </section>
+    <footer>
+        <b>Hecho por: Roberto Monedero Alonso</b>
+    </footer>
+</body>
+</html>
