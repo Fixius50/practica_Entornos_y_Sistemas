@@ -2,6 +2,6 @@
 ## COMANDOS LINUX
 ### Hecho por: Roberto Monedero, Santiago González y César Rodriguez
 
-- [GREP](https://github.com/Fixius50/practica_Entornos_y_Sistemas/blob/Roberto/GREP.HTML)
-- [FIND](https://github.com/Fixius50/practica_Entornos_y_Sistemas/blob/Santiago/FIND.HTML)
+- [GREP](https://github.com/Santiagoo1998/repositorio_santi.git)
+- [FIND](https://github.com/Fixius50/repositorio_roberto.git)
 - [PS](https://github.com/cesarminecraft/m.git)
